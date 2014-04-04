@@ -16,13 +16,13 @@ onError = function (err){
 };
 
 //Caminho padrão
-var _root = '../';
+var _root = '';
 
 //PATH onde ficará os arquivos compilados
-var _path = _root+'public/assets/';
+var _path = _root+'';
 
-//PATH onde estão os arquivos editáveis
-var _path_tmp = _root+'assets/';
+//PATH onde estão os arquivos editáveis 
+var _path_tmp = _root+'';
 
 // Sets assets folders.
 var dirs = {
